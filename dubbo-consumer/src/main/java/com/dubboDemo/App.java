@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ImportResource;
  */
 @EnableAutoConfiguration
 @SpringBootApplication  
-@ImportResource(locations={"dubbo-consumer.xml"}) 
+@ImportResource(locations={"disconf.xml","dubbo-consumer.xml"}) 
 public class App 
 {
 	/**  
@@ -19,6 +19,6 @@ public class App
      */  
     public static void main(String[] args) {  
         SpringApplication.run(App.class, args);  
-        System.out.println("============= APP Start ON SpringBoot Success =============");  
+        System.out.println("============= dubbo-consumer Start ON SpringBoot Success =============");  
     }
 }
