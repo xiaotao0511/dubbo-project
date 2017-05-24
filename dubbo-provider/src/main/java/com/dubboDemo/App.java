@@ -18,7 +18,7 @@ public class App
      * Main 方法启动项  
      */  
     public static void main(String[] args) {  
-        SpringApplication.run(App.class, args);  
+        SpringApplication.run(App.class, args);
         System.out.println("============= dubbo-provider Start ON SpringBoot Success =============");  
     }
 }
